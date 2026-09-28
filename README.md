@@ -1,3 +1,4 @@
+<img width="50" height="50" alt="image" src="https://github.com/user-attachments/assets/d1333dc6-9464-4897-9c1b-46d23cd50450" /> Buy me a Coffee- buymeacoffee.com/wizhardhacker1
 
 
 # 🚁 R22 Flight School
