@@ -1,202 +1,566 @@
-<img width="50" height="50" alt="image" src="https://github.com/user-attachments/assets/d1333dc6-9464-4897-9c1b-46d23cd50450" /> Buy me a Coffee- buymeacoffee.com/wizhardhacker1
-
-
 # 🚁 R22 Flight School
 
-### Interactive R22 Ground School • Cockpit Training • FAA Knowledge Prep • Flight Planning
-<img width="1887" height="910" alt="image" src="https://github.com/user-attachments/assets/cc40da2d-1e51-4ef4-8102-2221cebba35b" />
+**Offline Robinson R22 Ground School, FAA Knowledge Training, Interactive Cockpit Training, Performance Planning, Emergency Procedures, and Checkride Preparation**
 
-R22 Flight School is a self-hosted training platform designed to bring R22 ground-school study, cockpit procedure training, FAA knowledge preparation, flight planning, aircraft performance, ATC practice, and instructor/student progress tracking into one application.
+R22 Flight School is a full-featured training platform designed for Robinson R22 student pilots, instructors, and flight schools.
 
-The project focuses on **interactive learning instead of passive reading**.
+The application combines FAA ground-school preparation, R22 POH study, interactive aircraft systems training, cockpit flows, emergency-procedure practice, performance planning, chart training, ATC practice, knowledge testing, checkride preparation, and student progress tracking in one offline-capable application.
 
-Students don't just read a checklist—they work through simulated cockpit controls, switches, gauges, annunciators, RPM changes, engine/rotor states, and procedure flows.
+> **Current Version: v111**
 
 ---
 
-## 🚁 R22 Cockpit Training
+## ✈️ Purpose
 
-The application includes two cockpit trainers with intentionally different purposes.
-<img width="1893" height="903" alt="image" src="https://github.com/user-attachments/assets/0e1d1098-f579-4850-8463-6064d0d5d40e" />
+R22 Flight School is designed to help a student move from early ground training through FAA knowledge-test preparation and checkride preparation while maintaining a strong Robinson R22 aircraft-specific focus.
 
-### Interactive R22 Startup Cockpit
+The system is built around:
 
-A hands-on R22 startup and run-up simulator.
+- FAA-S-ACS-15 Private Pilot Rotorcraft–Helicopter ACS
+- Robinson R22 POH/RFM
+- FAA handbooks and guidance
+- FAA regulations
+- FAA AIM material
+- FAA chart-reading concepts
+- Robinson Safety Notices and publications
+- SFAR 73 training concepts
+- Scenario-based learning
+- Instructor verification where actual flight proficiency is required
 
-Students interact with simulated aircraft controls and systems while progressing through the startup procedure.
+The application is a **training aid** and does not replace a CFI, the current approved aircraft POH/RFM, aircraft records, FAA publications, required endorsements, flight experience, the FAA knowledge test, or the practical test.
+
+---
+
+# 🚁 Major Training Modules
+
+## Student Pilot Training Roadmap
+
+The **R22 Student Pilot Training Roadmap** provides a structured path through:
+
+- Orientation
+- Aerodynamics
+- Rotor systems
+- Flight controls
+- Preflight
+- Hover operations
+- Takeoffs and landings
+- Performance maneuvers
+- Emergency operations
+- Performance and weight & balance
+- Weather
+- Navigation
+- ATC communications
+- Night operations
+- FAA written preparation
+- Oral/checkride preparation
+
+Roadmap completion is based on actual recorded training evidence.
+
+Simply opening a page does **not** mark a training stage complete.
+
+---
+
+# 📘 POH Mastery
+
+POH Mastery turns the Robinson R22 POH into an actual training course instead of simply opening a PDF.
+
+Training is organized into:
+
+1. General
+2. Limitations
+3. Emergency Procedures
+4. Normal Procedures
+5. Performance
+6. Weight & Balance
+7. Systems Description
+8. Handling & Maintenance
+9. Supplements
+10. Safety Tips & Safety Notices
+
+Each section includes:
+
+- Instruction
+- R22 application
+- POH reference
+- Knowledge checks
+- Section scoring
+- Progress tracking
+- Remediation
+- Final POH Mastery assessment
+
+A student must complete the training and pass the assessments to earn POH Mastery progress.
+
+The complete bundled R22 POH remains available separately as a reference.
+
+---
+
+# 🎛 Interactive R22 Startup Cockpit
+
+Practice R22 cockpit startup procedures using an interactive cockpit training environment.
 
 Features include:
 
-- Master and electrical controls
-- Mixture
-- Throttle
-- Priming
-- Starter operation
-- Clutch engagement
+- Interactive cockpit controls
+- Engine RPM
+- Rotor RPM
+- E/R tachometer behavior
+- Manifold pressure
+- Oil indications
+- Annunciator lights
+- Battery
 - Alternator
-- Avionics
+- Clutch
 - Governor
-- Cyclic / collective / pedal checks
-- Friction controls
-- Warning-light tests
-- Engine and rotor RPM
-- Animated dual E/R tachometer
-- Sprag-clutch needle split
-- Annunciator behavior
-- LOW RPM indication and horn
-- Engine-running state
-- Animated rotor/blade rotation
-- Engine and rotor audio
-- Rotor spool-up and coast-down
-- State-driven gauges
-- READY TO FLY status
+- Ignition
+- Mixture
+- Carburetor heat
+- Rotor brake
+- Throttle
+- Fuel shutoff
+- Startup sequencing
+- Run-up training
+- Shutdown procedures
+- Correct/incorrect action feedback
+- Training mode
+- Practice mode
+- Test mode
 
-The simulator only displays **READY TO FLY** when the required startup/run-up checks and simulated aircraft configuration have been completed.
-<img width="1630" height="897" alt="image" src="https://github.com/user-attachments/assets/b6d868a6-1701-4efc-be6b-0b4c5ab46885" />
+Correct operating states are displayed visually.
+
+Cockpit audio defaults to **ON**.
 
 ---
 
-## 🔄 R22 Checklist & Cockpit Flow Study
+# ✅ Checklist & Cockpit Flow Trainer
 
-The Cockpit Flow Trainer has a different purpose from the startup simulator.
+Train complete R22 cockpit flows and checklist discipline.
 
-It teaches the student to perform the **complete R22 cockpit procedure sequence and cockpit flow from memory**.
-
-### Training phases
+Training includes:
 
 - Preflight
 - Before Start
-- Start & Run-Up
-- Takeoff
-- Shutdown / Securing
+- Engine Start
+- Run-Up
+- Takeoff preparation
+- Flight checks
+- Shutdown
 
-The simulated aircraft changes state as the checklist progresses.
+The trainer provides:
 
-Switches, controls, gauges, RPM indications, warning lights, engine state, rotor state, and system indications respond to the current procedure.
-
-Correctly configured controls receive visual confirmation while actual aircraft warning annunciators retain their appropriate warning/caution behavior.
-
-### Learn / Practice / Test
-
-**Learn**
-
-Guided training with visual assistance and immediate feedback.
-
-**Practice**
-
-Reduced assistance. Students locate and operate the correct controls themselves.
-
-**Test**
-
-Students perform procedures from memory with minimal guidance.
+- Correct-sequence feedback
+- Green confirmation for correct actions
+- Red feedback for incorrect/out-of-order actions
+- Interactive cockpit controls
+- Live instrument state
+- Rotor/engine audio
+- Training / Practice / Test modes
 
 ---
 
-## 🛑 Interactive Shutdown Training
+# 🔩 Rotor System Component Lab
 
-Shutdown is not simply a checklist-completion button.
+Interactive training for the R22 rotor head and control system.
 
-The student performs the shutdown sequence interactively, including:
+## Identify Mode
 
-- Collective positioning
-- Cyclic and pedal positioning
-- Frictions
-- Governor
-- RPM reduction
-- Engine cool-down
-- Throttle closure
-- Clutch disengagement
-- Procedural timing/waits
-- Mixture / idle cutoff
-- Mixture guard
-- Rotor brake
-- Circuit-breaker / clutch verification
-- Avionics
-- Alternator
-- Ignition
-- Battery last
+Study a labeled R22 rotor-head reference showing components such as:
 
-The simulation distinguishes between **engine RPM and rotor RPM**.
+- Main rotor blades
+- Mast
+- Pitch links
+- Swashplate
+- Control rods
+- Rotor-head components
 
-After engine shutdown, the rotor continues to coast and the E/R tachometer visually separates as rotor RPM decays.
+## Watch in Motion
 
-The sequence finishes with:
+Manipulate:
 
-> **SHUTDOWN COMPLETE — AIRCRAFT SECURED**
+- Collective
+- Cyclic
+- Pedals
 
-only after the required shutdown actions have been completed.
+and observe the corresponding rotor-control relationship.
+
+The trainer demonstrates:
+
+- Swashplate vertical movement
+- Swashplate cyclic tilt
+- Pitch-link movement
+- Differential cyclic blade pitch
+- Collective blade-pitch change
+- Rotor-disc response
+- Tail-rotor command response
+
+## Image Identification Quiz
+
+The component quiz removes the labels.
+
+Example:
+
+> **Where is the mast?**
+
+The student must click directly on the mast in the helicopter image.
+
+Correct selections display:
+
+**CORRECT**
+
+Incorrect selections display:
+
+**INCORRECT — TRY AGAIN**
+
+Each component is tested once during the quiz.
+
+The student passes after correctly identifying the complete component set.
 
 ---
 
-## 🎛️ Interactive Cockpit Systems
+# 🚁 Flight Controls & Rotor Motion
 
-The cockpit simulation includes state-driven controls and indications rather than static graphics.
+Interactive R22 control-motion training includes:
 
-Examples include:
+- Collective movement
+- Cyclic fore/aft
+- Pedal input
+- Blade-pitch response
+- Swashplate movement
+- Rotor-disc response
+- Tail-rotor pitch response
+- Anti-torque relationship
+- Control relationship explanations
 
-- STARTER
-- CLUTCH
-- LOW RPM
-- GOV OFF
-- LOW FUEL
-- OIL
-- ALT
-- MR TEMP
-- MR CHIP
-- TR CHIP
-
-Warning-light testing is performed directly from the cockpit panel.
+The trainer is designed to visually demonstrate how pilot control input affects the helicopter.
 
 ---
 
-## 📊 Functional Instrument Panel
+# ⚠️ Emergency Procedures Trainer
 
-The training panel includes interactive/state-driven instruments such as:
+The Emergency Procedures Trainer begins with the R22 already **in flight** where appropriate.
 
-- Dual Engine / Rotor Tachometer
-- Manifold Pressure
-- Oil indications
+It does not begin as a cold/dark cockpit.
+
+The simulator can display:
+
 - Airspeed
-- Altimeter
-- Vertical Speed
-- Heading
-- Attitude indication
+- Altitude
+- Engine RPM
+- Rotor RPM
+- Manifold pressure
+- Warning lights
+- Caution lights
+- Governor status
+- Electrical status
+- Low-RPM indications
+- Engine/rotor sounds
+- Warning audio
 
-The dual tachometer models separate:
+Students perform the actual procedure sequence using cockpit controls and procedure actions.
 
-**E — Engine RPM**
+Emergency training currently includes scenarios such as:
 
-**R — Rotor RPM**
+- Power failure above 500 ft AGL
+- Power failure 8–500 ft AGL
+- Power failure below 8 ft AGL
+- Maximum-glide configuration
+- Air restart
+- Power-off water landing
+- Power-on water landing
+- Loss of tail-rotor thrust in forward flight
+- Loss of tail-rotor thrust in hover
+- Headset/audio failure
+- Engine fire during start
+- Engine fire in flight
+- Electrical fire
+- Tachometer failure
+- Governor failure
+- Low-G / right-roll tendency
+- Warning/caution-light scenarios
+- Audio-warning scenarios
+- Turbulence / wind-related training
 
-This allows the trainer to visually demonstrate events such as clutch engagement, governed operation, sprag-clutch checking, engine shutdown, and rotor coast-down.
+Correct actions turn green.
+
+Incorrect actions are identified and scored appropriately.
+
+Training modes include:
+
+- Learn
+- Practice
+- Test
+- Debrief
 
 ---
 
-## 🔊 Engine & Rotor Audio
+# ⚖️ R22 Weight & Balance
 
-The cockpit includes offline synthesized aircraft-state audio.
+The Performance Pad includes interactive R22 weight-and-balance training.
 
-Audio changes according to simulated conditions:
+Features include:
+
+- Empty weight
+- Empty CG
+- Pilot weight
+- Passenger weight
+- Baggage
+- Fuel
+- Door configuration
+- Control configuration
+- Takeoff weight
+- Landing weight
+- Zero-fuel weight
+- CG calculations
+- CG envelope visualization
+- Live loading visualization
+- Warnings for out-of-envelope conditions
+
+Aircraft-specific values should always be verified against the actual aircraft's current weight-and-balance records.
+
+---
+
+# 📊 Performance Pad
+
+The R22 Performance Pad combines several flight-planning tools.
+
+Includes:
+
+- Weight & Balance
+- Density altitude
+- Pressure altitude
+- R22 performance-chart training
+- Fuel planning
+- Endurance calculations
+- Reserve calculations
+- Wind calculations
+- Flight-computer calculations
+- Groundspeed
+- Wind-correction angle
+- True heading
+- Magnetic heading
+- Compass heading
+- Estimated time en route
+
+Calculations are presented in human-readable form rather than raw JSON.
+
+---
+
+# 🗺 FAA Chart Lab
+
+Interactive FAA chart-reading training designed for helicopter students.
+
+Features include:
+
+- FAA chart imagery
+- Zoom
+- Pan
+- Chart-reading instruction
+- Airspace training
+- Airport interpretation
+- Terrain awareness
+- Navigation exercises
+- Scenario questions
+- Learn / Practice / Test workflows
+
+The chart system is designed to continue working offline after installation.
+
+---
+
+# 🎙 ATC Radio Lab
+
+Practice helicopter radio communication before flying or before a checkride.
+
+Includes scenarios for:
+
+- Initial calls
+- Ground operations
+- Taxi
+- Helicopter operations
+- Departures
+- Arrivals
+- Pattern operations
+- Tower communication
+- Approach communication
+- Frequency changes
+- Readbacks
+- Emergency communication
+
+Offline training recordings/scripts are included.
+
+Optional connected listening can also be used when Internet access is available.
+
+---
+
+# 🌦 Weather Training
+
+Weather training includes:
+
+- Aviation weather concepts
+- Weather decision making
+- Personal minimums
+- METAR interpretation
+- TAF interpretation
+- Flight planning
+- Density altitude
+- Wind
+- Turbulence
+- Weather risk management
+- Go / No-Go scenarios
+
+---
+
+# 🧠 FAA Knowledge Test Preparation
+
+Includes:
+
+- Private Pilot Rotorcraft–Helicopter training
+- IFR study material
+- Adaptive practice
+- Weak-area targeting
+- Knowledge-area tracking
+- Explanations
+- Practice exams
+- Exam history
+- Student progress tracking
+
+Practice exams are scored only after completion.
+
+---
+
+# 🗂 Flashcards
+
+Built-in spaced-repetition flashcard training includes:
+
+- R22 POH
+- FAA ACS
+- Regulations
+- Systems
+- Emergency procedures
+- Aerodynamics
+- Weather
+- Navigation
+- Communications
+- Performance
+- Weight & Balance
+- Checkride topics
+
+Flashcard progress is persistent between sessions.
+
+---
+
+# 🎓 Checkride Preparation Center
+
+The Checkride Preparation Center combines:
+
+- FAA ACS preparation
+- Eligibility review
+- Document preparation
+- Aircraft airworthiness review
+- R22 systems knowledge
+- Oral preparation
+- Scenario training
+- Weak-area remediation
+- Full mock checkride preparation
+- Readiness tracking
+
+The system does **not** guarantee a checkride pass.
+
+Actual practical-test proficiency must be demonstrated to an instructor and examiner.
+
+---
+
+# 🗣 Examiner-Style Oral Trainer
+
+Practice answering questions in an oral-checkride format.
+
+The trainer emphasizes:
+
+**ANSWER → AUTHORITY → APPLY → VERIFY**
+
+Students are trained to:
+
+- Answer the actual question
+- Explain the reasoning
+- Identify the controlling FAA/POH source
+- Apply the answer to the R22
+- Avoid guessing
+
+---
+
+# 📈 Student Progress & Readiness
+
+The system tracks actual activity, including:
+
+- Lessons completed
+- Knowledge questions answered
+- Accuracy
+- Practice exams
+- Emergency scenarios
+- ATC sessions
+- Oral sessions
+- POH Mastery
+- Roadmap completion
+- Weak areas
+- Checkride readiness
+
+Progress is based on actual training activity rather than simply opening modules.
+
+---
+
+# 👨‍🏫 Instructor Tools
+
+Instructor tools support:
+
+- Student accounts
+- Assignments
+- Training progress
+- Roadmap status
+- Accuracy
+- Exam history
+- Oral training
+- ATC progress
+- Emergency training
+- Readiness review
+
+---
+
+# 👤 Multi-User Support
+
+The application supports multiple users including:
+
+- Students
+- Instructors
+- Administrators
+
+Each student maintains independent:
+
+- Progress
+- Test history
+- Training records
+- Flashcard progress
+- Assignments
+- Readiness data
+
+---
+
+# 💾 Backup & Restore
+
+Administrators can:
+
+- Create backups
+- Download backups
+- Restore application data
+- Preserve student progress
+- Preserve application configuration
+
+User data is kept separately from the core application so upgrades can preserve training records.
+
+---
+
+# 🌐 Local Network Access
+
+The application is designed to run on the local network.
+
+Default port:
 
 ```text
-Starter / Cranking
-        ↓
-Engine Start
-        ↓
-Engine Idle
-        ↓
-Clutch Engagement
-        ↓
-Rotor Begins Turning
-        ↓
-Rotor Acceleration
-        ↓
-Governed RPM
-        ↓
-RPM Changes
-        ↓
-Engine Shutdown
-        ↓
-Rotor Coast-Down
-        ↓
-Rotor Stopped
+8086
