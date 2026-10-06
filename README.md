@@ -1,4 +1,6 @@
 # 🚁 R22 Flight School
+<img width="1905" height="905" alt="image" src="https://github.com/user-attachments/assets/c2c915b5-4f9e-4b01-91a9-adbbfa7d3e71" />
+
 
 **Offline Robinson R22 Ground School, FAA Knowledge Training, Interactive Cockpit Training, Performance Planning, Emergency Procedures, and Checkride Preparation**
 
@@ -6,7 +8,6 @@ R22 Flight School is a full-featured training platform designed for Robinson R22
 
 The application combines FAA ground-school preparation, R22 POH study, interactive aircraft systems training, cockpit flows, emergency-procedure practice, performance planning, chart training, ATC practice, knowledge testing, checkride preparation, and student progress tracking in one offline-capable application.
 
-> **Current Version: v111**
 
 ---
 
@@ -28,8 +29,10 @@ The system is built around:
 - Instructor verification where actual flight proficiency is required
 
 The application is a **training aid** and does not replace a CFI, the current approved aircraft POH/RFM, aircraft records, FAA publications, required endorsements, flight experience, the FAA knowledge test, or the practical test.
+<img width="1612" height="906" alt="image" src="https://github.com/user-attachments/assets/3cbae705-5ae4-4421-ad81-cb5ad1461259" />
+<img width="1642" height="910" alt="image" src="https://github.com/user-attachments/assets/1be25268-c678-4337-8362-abb59b1fce78" />
 
----
+
 
 # 🚁 Major Training Modules
 
