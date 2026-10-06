@@ -1,0 +1,32 @@
+Run these on the Linux machine:
+ls -l /usr/local/share/ca-certificates/
+
+You should see something like:
+r22-flight-school.crt
+
+Then verify that file is a valid single certificate:
+openssl x509 \
+  -in /usr/local/share/ca-certificates/r22-flight-school.crt \
+  -noout -subject -issuer -dates
+
+You should get output similar to:
+subject=CN = R22 Flight School Local CA
+issuer=CN = R22 Flight School Local CA
+notBefore=...
+notAfter=...
+
+If that works, rebuild the trust store:
+sudo update-ca-certificates --fresh
+
+Then verify Linux actually installed it:
+ls -l /etc/ssl/certs | grep -i r22
+
+
+
+systemctl --user stop r22-flight-school.service 2>/dev/null || true
+
+sudo fuser -k 8086/tcp 2>/dev/null || true
+
+rm -f data/server.pid
+
+./deploy/start_linux.sh
