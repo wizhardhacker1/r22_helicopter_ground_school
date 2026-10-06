@@ -8,6 +8,7 @@ R22 Flight School is a full-featured training platform designed for Robinson R22
 
 The application combines FAA ground-school preparation, R22 POH study, interactive aircraft systems training, cockpit flows, emergency-procedure practice, performance planning, chart training, ATC practice, knowledge testing, checkride preparation, and student progress tracking in one offline-capable application.
 
+<img width="1891" height="900" alt="image" src="https://github.com/user-attachments/assets/cba2dc4c-e065-4528-bff4-47305805cb53" />
 
 ---
 
@@ -98,6 +99,8 @@ The complete bundled R22 POH remains available separately as a reference.
 ---
 
 # 🎛 Interactive R22 Startup Cockpit
+<img width="1862" height="862" alt="image" src="https://github.com/user-attachments/assets/e7597234-05ba-474d-9e5d-9823ec1e2218" />
+
 
 Practice R22 cockpit startup procedures using an interactive cockpit training environment.
 
@@ -367,6 +370,7 @@ Features include:
 The chart system is designed to continue working offline after installation.
 
 ---
+<img width="1852" height="891" alt="image" src="https://github.com/user-attachments/assets/7c732551-cc35-4c72-a579-94aea83d317c" />
 
 # 🎙 ATC Radio Lab
 
