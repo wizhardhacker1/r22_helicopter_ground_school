@@ -1,0 +1,319 @@
+R22 FLIGHT SCHOOL
+LINUX INSTALLATION INSTRUCTIONS
+
+Default Port: 8086
+
+
+==================================================
+LINUX INSTALLATION
+==================================================
+
+R22 Flight School is designed for Debian-based Linux systems.
+
+
+1. Download the latest R22 Flight School release ZIP.
+
+Example:
+
+R22_Flight_School_Production_v111.zip
+
+
+2. Extract the ZIP.
+
+Example:
+
+unzip R22_Flight_School_Production_v111.zip
+
+
+3. Enter the extracted folder.
+
+Example:
+
+cd R22_Flight_School_Production_v111
+
+
+4. Make the Linux installer executable.
+
+Run:
+
+chmod +x INSTALL_LINUX.sh
+
+
+5. Run the installer.
+
+Run:
+
+./INSTALL_LINUX.sh
+
+
+If administrator privileges are required:
+
+sudo ./INSTALL_LINUX.sh
+
+
+6. Allow the installer to complete.
+
+The installer will:
+
+- Verify the application files
+- Create the Python environment
+- Install required dependencies
+- Run the built-in application verification tests
+- Prepare persistent application data
+- Prepare offline training assets
+- Configure local network access
+- Preserve existing user and training data during upgrades
+
+If application verification fails, the installer will stop.
+
+Do not ignore a verification failure.
+
+
+==================================================
+STARTING R22 FLIGHT SCHOOL
+==================================================
+
+After installation, start R22 Flight School using the installed launcher or service.
+
+Local computer:
+
+http://127.0.0.1:8086
+
+
+Other devices on the same network:
+
+http://LINUX-IP-ADDRESS:8086
+
+
+Example:
+
+http://192.168.1.60:8086
+
+
+==================================================
+FINDING YOUR LINUX IP ADDRESS
+==================================================
+
+Run:
+
+hostname -I
+
+
+or:
+
+ip addr
+
+
+Find the LAN IP address for the computer running R22 Flight School.
+
+
+Example:
+
+192.168.1.60
+
+
+From another computer, tablet, or phone on the same network, open:
+
+http://192.168.1.60:8086
+
+
+==================================================
+LINUX FIREWALL
+==================================================
+
+If another device cannot connect, verify that TCP port 8086 is allowed through the Linux firewall.
+
+R22 Flight School uses:
+
+TCP 8086
+
+
+If UFW is enabled, an administrator may allow the port with:
+
+sudo ufw allow 8086/tcp
+
+
+Do not expose R22 Flight School directly to the public Internet unless the network is properly secured.
+
+
+==================================================
+FIRST LOGIN
+==================================================
+
+Sign in using the initial administrator account created by the application.
+
+If the default administrator password is still enabled, change it immediately.
+
+Open:
+
+Settings & Profile
+
+Then change the administrator password.
+
+
+==================================================
+OFFLINE USE
+==================================================
+
+After installation, the core R22 Flight School training environment is designed to work without an Internet connection.
+
+Offline features include:
+
+- R22 POH Mastery
+- Bundled R22 POH reference
+- Ground-school lessons
+- Question banks
+- Practice exams
+- Interactive Startup
+- Cockpit Flow Trainer
+- Rotor System Component Lab
+- Flight Controls & Rotor Motion
+- Emergency Procedures Trainer
+- Weight & Balance
+- Performance calculations
+- Flashcards
+- Oral and checkride preparation
+- Student progress
+- ATC training material
+- Installed FAA chart material
+- Local images and audio
+- Application assets
+
+Some optional connected resources may require Internet access.
+
+
+==================================================
+UPGRADING
+==================================================
+
+To install a newer release:
+
+1. Download the new release ZIP.
+2. Extract it into a new folder.
+3. Make INSTALL_LINUX.sh executable if required.
+4. Run the Linux installer.
+5. Allow the installer to preserve existing application data.
+
+Do not manually delete the application data directory unless you intentionally want to remove:
+
+- User accounts
+- Student progress
+- Exam history
+- POH Mastery progress
+- Training records
+- Settings
+- Backups
+
+
+==================================================
+BACKUP
+==================================================
+
+Before major upgrades, create a backup from:
+
+Admin > Backups
+
+
+Backups can preserve:
+
+- User accounts
+- Student progress
+- Scores
+- Assignments
+- Training history
+- Application configuration
+
+
+==================================================
+TROUBLESHOOTING
+==================================================
+
+INSTALLER VERIFICATION FAILED
+
+If the installer reports:
+
+Application verification failed
+
+Do not ignore the error.
+
+The installer intentionally stops when verification tests fail.
+
+Copy the complete installer error output when reporting the problem.
+
+
+PORT 8086 IS ALREADY IN USE
+
+Run:
+
+ss -ltnp | grep 8086
+
+
+You can also use:
+
+sudo lsof -i :8086
+
+
+Stop the conflicting process before restarting R22 Flight School.
+
+
+OTHER DEVICES CANNOT CONNECT
+
+Verify:
+
+- R22 Flight School is running
+- Both devices are on the same network
+- You are using the Linux server's LAN IP address
+- TCP port 8086 is allowed through the firewall
+- You are not using 127.0.0.1 from another device
+
+127.0.0.1 always refers to the device you are currently using.
+
+
+OLDER VERSION APPEARS AFTER AN UPGRADE
+
+1. Close the browser tab.
+2. Restart R22 Flight School.
+3. Reopen the application.
+4. Perform a hard refresh.
+
+Chrome / Chromium:
+
+Ctrl + Shift + R
+
+Verify the installed version on the login screen.
+
+
+==================================================
+RECOMMENDED LINUX ENVIRONMENT
+==================================================
+
+Recommended:
+
+Debian
+Ubuntu
+Other Debian-based Linux distributions
+
+
+Recommended browsers:
+
+Google Chrome
+Chromium
+Microsoft Edge
+
+
+JavaScript must be enabled for the interactive trainers.
+
+
+==================================================
+IMPORTANT
+==================================================
+
+R22 Flight School is a training aid.
+
+For actual flight operations, always use:
+
+- The current approved R22 POH/RFM
+- Applicable supplements
+- Current aircraft records
+- Current FAA publications and regulations
+- Qualified instructor guidance
