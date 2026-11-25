@@ -1,5 +1,5 @@
 # 🚁 R22 Flight School
-<img width="1317" height="739" alt="image" src="https://github.com/user-attachments/assets/b6fb9edd-df0b-4eb9-83da-05fd64dbec16" />
+<img width="1172" height="653" alt="image" src="https://github.com/user-attachments/assets/7fb4c2d1-7a4b-4e43-8312-d324c8f5b749" />
 
 
 **Offline Robinson R22 Ground School, FAA Knowledge Training, Interactive Cockpit Training, Performance Planning, Emergency Procedures, and Checkride Preparation**
